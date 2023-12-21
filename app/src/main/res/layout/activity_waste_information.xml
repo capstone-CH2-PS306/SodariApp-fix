@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- You can customize this layout according to your needs -->
+    <TextView
+        android:id="@+id/tvWasteInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waste Information"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- RecyclerView to display waste information -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWaste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvWasteInformation"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        tools:listitem="@layout/waste_list"/>
+</RelativeLayout>

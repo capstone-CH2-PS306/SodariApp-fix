@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sodari App</string>
+    <string name="info_home">Daur Ulang Sampahmu Untuk Selamatkan Bumi</string>
+    <string name="info_waste">Informasi Sampah</string>
+    <string name="favorite_info">Anda belum menambahkan barang favorit</string>
+    <string name="btn_result_scanning">Objek Benda</string>
+    <string name="item_result">Hasil Benda</string>
+    <string name="jenis_item">Jenis Benda</string>
+    <string name="nama_sampah">Nama Sampah</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="waste_information">informasi sampah</string>
+</resources>
